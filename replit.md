@@ -4,6 +4,14 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
+## Artifacts
+
+### Apex Drive: Real Circuit (`artifacts/apex-drive`)
+- **Type**: React + Vite web app (frontend-only, no backend)
+- **Preview path**: `/`
+- **Description**: A 3D browser-based circuit racing game using Three.js (3D rendering) and Cannon-es (physics simulation). Features: realistic car physics, lap timing, checkpoint system, minimap, engine audio, gear simulation, mobile touch controls. Requires WebGL in the browser.
+- **Key file**: `artifacts/apex-drive/src/pages/Game.tsx` — contains all game logic injected as a module script
+
 ## Stack
 
 - **Monorepo tool**: pnpm workspaces
